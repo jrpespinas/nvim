@@ -10,9 +10,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Default Plugins
     Plug 'sheerun/vim-polyglot'
-    Plug 'scrooloose/NERDTree'
     Plug 'jiangmiao/auto-pairs'
-
+    Plug 'preservim/nerdtree'
+   
     " Themes
     Plug 'joshdick/onedark.vim'
 
@@ -22,6 +22,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status Line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-
+    
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} 
+    
+    "FZF
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter' 
 
 call plug#end()
