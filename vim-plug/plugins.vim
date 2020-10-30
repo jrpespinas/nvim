@@ -26,9 +26,34 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} 
     
-    "FZF
+    " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter' 
 
+    " Startify - Project Management
+    Plug 'mhinz/vim-startify'
+
+    " Git Integrations
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+
+
+    " Sneak text navigation
+    Plug 'justinmk/vim-sneak'
+    
+    " Which key
+    Plug 'liuchengxu/vim-which-key'
+
+    " Auto Formatting
+    Plug 'tell-k/vim-autopep8'
+
+    " Devicons
+    Plug 'ryanoasis/vim-devicons' 
+
+
+
+
 call plug#end()
+
