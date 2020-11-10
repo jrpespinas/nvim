@@ -16,11 +16,11 @@
         "UltiSnips",
         "~/.config/nvim/utils/snips"
     ],
-    // explorer 
+    // explorer
     "explorer.width": 30,
     "explorer.icon.enableNerdfont": true,
     "explorer.previewAction.onHover": false,
-    "explorer.keyMappings": {
+    "explorer.keyMappings.global": {
         "<cr>": [
             "expandable?",
             "expand",
