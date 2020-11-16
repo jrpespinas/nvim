@@ -1,4 +1,4 @@
 Neovim
 ===
 
-Neovim configurations and plugins included
+Neovim configurations and plugins included under Ubuntu 20.04
